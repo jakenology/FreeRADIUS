@@ -1,3 +1,9 @@
+## **Sources Used**
+- **[Documentation](https://freeradius.org/documentation/)**
+- **[Quick Start Guide](https://wiki.freeradius.org/guide/Getting%20Started)**
+- **[FreeRADIUS Techinal Guide PDF](http://networkradius.com/doc/FreeRADIUS%20Technical%20Guide.pdf)**
+
+
 # **On  Raspbian**
 
 ### Step 1: Update Lists 
