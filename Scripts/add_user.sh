@@ -12,7 +12,7 @@ echo -e 'USERNAME:\t' $USERNAME
 echo -e 'PASSWORD:\t' $PASSWORD
 read ANSWER
 
-if [[ $ANSWER == "Y" ]] || [[ $ANSWER == "y" ]] || [[ $ANSWER = "YES" ]] || [[ $ANSWER = "yes" ]]; then
+if [[ $ANSWER == Y* ]] || [[ $ANSWER == y* ]]; then
     echo ""$USERNAME" Cleartext-Password := '"$PASSWORD"'" >> /etc/freeradius/3.0/users
     exit 0
 else
