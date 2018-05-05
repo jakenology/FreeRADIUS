@@ -27,6 +27,8 @@ $ sudo iptables -A INPUT -p udp --dport 1813 -j ACCEPT
 ### Step 5: Verify IP Tables
 ```
 $ iptables -L -n | grep 181
+ACCEPT     udp  --  0.0.0.0/0            0.0.0.0/0            udp dpt:1812
+ACCEPT     udp  --  0.0.0.0/0            0.0.0.0/0            udp dpt:1813
 ```
 
 ### Step 6: Edit the Clients File
