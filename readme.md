@@ -1,6 +1,6 @@
 # **On  Raspbian**
 
-#### Step 1: Update Lists 
+### Step 1: Update Lists 
 ```
 $ sudo apt-get update
 ```
@@ -43,5 +43,6 @@ client MyRouter {
 ### Step 7: Edit the Users File
 ### Example
 ```
-## Username Auth Password
+```## Username Auth Password
 testuser Cleartext-Password := "testpassword"
+```
