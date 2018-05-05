@@ -40,8 +40,9 @@ client MyRouter {
     ipaddr      = 192.168.1.1
     secret      = supersecretpassphrase
 }
+```
 ### Step 7: Edit the Users File
-### Example
+#### Example
 ```
 ```## Username Auth Password
 testuser Cleartext-Password := "testpassword"
