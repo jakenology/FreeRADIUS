@@ -37,12 +37,7 @@ $ cd /etc/freeradius/3.0
 $ sudo leafpad clients.conf
 ```
 #### Example
-```
-client MyRouter {
-    ipaddr      = 192.168.1.1
-    secret      = supersecretpassphrase
-}
-```
+![](./Screenshots/CCF01.png)
 ### Step 7: Edit the Users File
 #### Example
 ```
